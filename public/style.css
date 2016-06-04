@@ -1,0 +1,53 @@
+html, body {
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    background-color: #eeefe9;
+}
+h1. h2, h3, h4{
+    font-family: 'Abel', sans-serif;
+}
+.cal-area{
+    margin-top: 40px;
+    padding: 80px 20px 40px 20px;
+    background: url("images/purpattern.png") repeat;
+    color: #fff;
+}
+
+.cbtn {
+    padding: 5px 20px;
+    font-size: 1.2em;
+    text-align: center;
+    background: url("images/shattered.png") repeat;
+    border: 1px solid #ffffff;
+ }
+
+.cbtn:hover {
+    background: url("images/purpalt.png") repeat;
+    border: 1px solid #ffffff;
+}
+.tpad button{
+    margin: 0 5px 5px 5px;
+}
+.well {
+    background: #ffffff;
+    border: 2px solid #444444;
+    text-align: right;
+}
+
+#screen {
+    overflow: hidden;
+    background: url("images/shattered.png") repeat;
+    color: #fff;
+}
+.ftr {
+    background: url(images/shattered.png) repeat;
+    padding: 30px 0 20px 0;
+}
+.ftr address, .ftr a, .ftr p {
+    color: #fff;
+}
+.ft_space {
+    padding: 0 18px;
+}
