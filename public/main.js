@@ -43,28 +43,28 @@ var onEqualsPress = function () {
             // division
             for (var i = 0; i < newEqua.length; i++) {
                 if (newEqua[i] == '/') {
-                    num = parseInt(newEqua[i - 1]) / parseInt(newEqua[i + 1]);
+                    num = parseFloat(newEqua[i - 1]) / parseFloat(newEqua[i + 1]);
                     newEqua.splice(i - 1, 3, num);
                 }
             }
             //multiplaction
             for (var i = 0; i < newEqua.length; i++) {
                 if (newEqua[i] == '*') {
-                    num = parseInt(newEqua[i - 1]) * parseInt(newEqua[i + 1]);
+                    num = parseFloat(newEqua[i - 1]) * parseFloat(newEqua[i + 1]);
                     newEqua.splice(i - 1, 3, num);
                 }
             }
             //substraction 
             for (var i = 0; i < newEqua.length; i++) {
                 if (newEqua[i] == '-') {
-                    num = parseInt(newEqua[i - 1]) - parseInt(newEqua[i + 1]);
+                    num = parseFloat(newEqua[i - 1]) - parseFloat(newEqua[i + 1]);
                     newEqua.splice(i - 1, 3, num);
                 }
             }
             //addition
             for (var i = 0; i < newEqua.length; i++) {
                 if (newEqua[i] == '+') {
-                    num = parseInt(newEqua[i - 1]) + parseInt(newEqua[i + 1]);
+                    num = parseFloat(newEqua[i - 1]) + parseFloat(newEqua[i + 1]);
                     newEqua.splice(i - 1, 3, num);
                 }
             }

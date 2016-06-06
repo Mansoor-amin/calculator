@@ -45,14 +45,14 @@ let onEqualsPress = function() {
             // division
              for(let i =0; i<newEqua.length; i++){
                  if(newEqua[i] == '/'){
-                     num =  parseInt(newEqua[i-1]) / parseInt(newEqua[i+1])
+                     num =  parseFloat(newEqua[i-1]) / parseFloat(newEqua[i+1])
                      newEqua.splice(i-1,3,num);
                  }
              }
              //multiplaction
              for(let i =0; i<newEqua.length; i++){
                  if(newEqua[i] == '*'){
-                     num =  parseInt(newEqua[i-1]) * parseInt(newEqua[i+1])
+                     num =  parseFloat(newEqua[i-1]) * parseFloat(newEqua[i+1])
                      newEqua.splice(i-1,3,num);
                  }
              }
@@ -60,7 +60,7 @@ let onEqualsPress = function() {
             //substraction 
              for(let i =0; i<newEqua.length; i++){
                  if(newEqua[i] == '-'){
-                     num =  parseInt(newEqua[i-1]) - parseInt(newEqua[i+1])
+                     num =  parseFloat(newEqua[i-1]) - parseFloat(newEqua[i+1])
                      newEqua.splice(i-1,3,num);
                  }
              }
@@ -68,7 +68,7 @@ let onEqualsPress = function() {
             //addition
              for(let i =0; i<newEqua.length; i++){
                  if(newEqua[i] == '+'){
-                     num =  parseInt(newEqua[i-1]) + parseInt(newEqua[i+1])
+                     num =  parseFloat(newEqua[i-1]) + parseFloat(newEqua[i+1])
                      newEqua.splice(i-1,3,num);
                  }
              }
